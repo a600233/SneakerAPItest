@@ -1,0 +1,19 @@
+<h1>Arguments must be aggregate pipeline operators</h1>
+<h2></h2>
+<pre>Error: Arguments must be aggregate pipeline operators
+at Aggregate.append (D:\webappdev\Sneakers\node_modules\mongoose\lib\aggregate.js: 102: 11)
+at new Aggregate (D: \webappdev\Sneakers\node_modules\mongoose\lib\aggregate.js: 53: 17)
+at Function.aggregate (D: \webappdev\Sneakers\node_modules\mongoose\lib\model.js: 3295: 21)
+at router.findSellingInfoByAccount (D: \webappdev\Sneakers\routes\account.js:58: 13)
+at Layer.handle [as handle_request] (D: \webappdev\Sneakers\node_modules\express\lib\router\layer.js: 95: 5)
+at next (D: \webappdev\Sneakers\node_modules\express\lib\router\route.js: 137: 13)
+at Route.dispatch (D: \webappdev\Sneakers\node_modules\express\lib\router\route.js: 112: 3)
+at Layer.handle [as handle_request] (D: \webappdev\Sneakers\node_modules\express\lib\router\layer.js: 95: 5)
+at D: \webappdev\Sneakers\node_modules\express\lib\router\index.js: 281:22
+at Function.process_params (D: \webappdev\Sneakers\node_modules\express\lib\router\index.js:335: 12)
+at next (D: \webappdev\Sneakers\node_modules\express\lib\router\index.js: 275: 10)
+at D: \webappdev\Sneakers\node_modules\express\lib\router\index.js: 635: 15
+at next (D:\webappdev\Sneakers\node_modules\express\lib\router\index.js: 260: 14)
+at Function.handle (D: \webappdev\Sneakers\node_modules\express\lib\router\index.js: 174: 3)
+at router (D: \webappdev\Sneakers\node_modules\express\lib\router\index.js: 47: 12)
+at Layer.handle [as handle_request] (D: \webappdev\Sneakers\node_modules\express\lib\router\layer.js: 95: 5)</pre>
