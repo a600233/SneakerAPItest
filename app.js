@@ -28,13 +28,12 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.get('/selling', selling.findAll);
 app.get('/selling/:_id', selling.findOneById);
-app.get('/selling/b/:brand', selling.findBrand);
-app.get('/selling/n/:name', selling.findName);
-app.get('/selling/s/:series', selling.findSeries);
-app.get('/selling/c/:color', selling.findColor);
+app.get('/selling/info/:keyword', selling.findSellingInfo);
 app.get('/selling/sort/:selling_price', selling.sortAllPrice);
 app.post('/selling',selling.addSelling);
 app.delete('/selling/:_id', selling.deleteSelling);
+app.get('/selling/show/:keyword', selling.findSellingSneakerInfoByPrice);
+
 
 app.get('/account',account.findAllAccount);
 app.post('/account',account.addAccount);
@@ -42,18 +41,20 @@ app.delete('/account/:account_id', account.deleteAccount);
 app.get('/account/:account_id',account.findOneByAccountId);
 app.get('/account/an/:account_name',account.findAccountByAccountName);
 app.get('/account/s_a/show',account.findSellingInfoByAccount);
+app.get('/account/b_a/show',account.findBuyingInfoByAccount);
 
 app.get('/order',order.findAllOrder);
 app.post('/order',order.addOrder);
 app.delete('/order/:_id', order.deleteOrder);
 app.get('/order/:_id',order.findOrderById);
 app.get('/order/b_n/:account_name',order.findOrderByBuyerName);
-app.get('/order/o_s_a/show',order.findSpecificOrderInfo);
+app.put('/order/:_id/amount',order.incrementAmounts);
 
 app.get('/sneaker',sneaker.findAllSneaker);
 app.post('/sneaker',sneaker.addSneaker);
 app.delete('/sneaker/:_id', sneaker.deleteSneaker);
-
+app.get('/sneaker/s_s/:keyword1', sneaker.findSneakerIsSelling);
+app.get('/sneaker/find/:keyword',sneaker.findSpecificSneakerInfo);
 
 app.use(function(req, res, next) {
   next(createError(404));

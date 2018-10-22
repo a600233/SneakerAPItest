@@ -4,12 +4,11 @@ let SneakerSchema = new mongoose.Schema({
         brand: String,
         series: String,
         name: String,
-        size: Number,
         color: String,
         original_price: Number,
-        article_number: Number,
+        article_number: String,
         release_date: Date
     },
-    { collection: 'sneakserdb' });
+    { collection: 'sneakerdb' });
 
 module.exports = mongoose.model('Sneaker', SneakerSchema);

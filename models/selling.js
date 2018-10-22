@@ -5,7 +5,7 @@ let SellingSchema = new mongoose.Schema({
         series: String,
         name: String,
         size: Number,
-        article_number: Number,
+        article_number: String,
         selling_price: Number,
         account_name: String
     },

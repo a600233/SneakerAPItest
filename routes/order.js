@@ -39,10 +39,10 @@ router.findOrderById = (req, res) => {
 router.findOrderByBuyerName = (req, res) => {
 
     res.setHeader('Content-Type', 'application/json');
-    var keywrod1 = req.params.account_name;
+    var keywrod1 = req.params.buyer_account_name;
     var _filter1 = {
         $or:[
-            {account_name:{$regex:keywrod1,$options:'$i'}}
+            {buyer_account_name:{$regex:keywrod1,$options:'$i'}}
         ]
     }
     Order.find(_filter1).limit(5).exec(function (err,order) {
@@ -58,21 +58,11 @@ router.findSpecificOrderInfo = (req, res) => {
     Order.aggregate([{
         $lookup: {
             from: "accountdb",
-            localField: "account_name",
+            localField: "buyer_account_name",
             foreignField: "account_name",
-            as: "Selling Info:"
+            as: "Buying Info:"
         },
-        }, {
-        $project:{
-            "account_id":0,
-            "selling":0,
-            "buying":0,
-            "following_sneakers":0,
-            "registration_date":0,
-            "seller_account_name":0
-        }
-
-    }],function (err,order) {
+        }],function (err,order) {
         if(err)
             res.json({errmsg: err});
         else
@@ -80,20 +70,38 @@ router.findSpecificOrderInfo = (req, res) => {
     });
 
 }
+
+
+router.incrementAmounts = (req, res) => {
+
+    Order.findById(req.params._id, function(err,order) {
+        if (err)
+            res.json({ message: 'Order NOT Found!', errmsg : err } );
+        else {
+            order.amount += 1;
+            order.save(function (err) {
+                if (err)
+                    res.json({ message: 'Amount NOT UpVoted!', errmsg : err } );
+                else
+                    res.json({ message: 'Amount Successfully Upvoted!', data: order });
+            });
+        }
+    });
+}
 router.addOrder = (req, res) => {
 
     res.setHeader('Content-Type', 'application/json');
 
     var order = new Order();
 
-    order.account_name = req.body.account_name;
+    order.buyer_account_name = req.body.buyer_account_name;
     order.seller_account_name = req.body.seller_account_name;
-   // order.order_id = req.body.order_id;
     order.brand = req.body.brand;
     order.series = req.body.series;
     order.name = req.body.name;
     order.size = req.body.size;
     order.selling_price = req.body.selling_price;
+    order.amount = req.body.amount;
     order.shipping_address = req.body.shipping_address;
     order.order_time = req.body.order_time;
 

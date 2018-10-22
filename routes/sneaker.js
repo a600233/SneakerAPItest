@@ -25,24 +25,18 @@ router.findAllSneaker = (req, res) => {
         res.send(JSON.stringify(sneaker,null,5));
     });
 }
-router.findOneByAccountId = (req, res) => {
+
+router.findSpecificSneakerInfo = (req, res) => {
 
     res.setHeader('Content-Type', 'application/json');
-
-    Account.find({ "account_id" : req.params.account_id },function(err, account) {
-        if (err)
-            res.json({ message: 'Selling Info NOT Found!', errmsg : err } );
-        else
-            res.send(JSON.stringify(account,null,5));
-    });
-}
-router.findAccountByAccountName = (req, res) => {
-
-    res.setHeader('Content-Type', 'application/json');
-    var keywrod1 = req.params.account_name;
+    var keywrod = req.params.keywrod;
     var _filter1 = {
         $or:[
-            {account_name:{$regex:keywrod1,$options:'$i'}}
+            {brand:{$regex:keywrod,$options:'$i'}},
+            {series:{$regex:keywrod,$options:'$i'}},
+            {name:{$regex:keywrod,$options:'$i'}},
+            {color:{$regex:keywrod,$options:'$i'}},
+            {article_number:{$regex:keywrod,$options:'$i'}},
         ]
     }
     Sneaker.find(_filter1).limit(5).exec(function (err,sneaker) {
@@ -79,7 +73,6 @@ router.addSneaker = (req, res) => {
     sneaker.brand = req.body.brand;
     sneaker.series = req.body.series;
     sneaker.name = req.body.name;
-    sneaker.size = req.body.size;
     sneaker.color = req.body.color;
     sneaker.original_price = req.body.original_price;
     sneaker.article_number = req.body.article_number;

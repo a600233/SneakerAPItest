@@ -61,8 +61,14 @@ router.findSellingInfoByAccount = (req, res) => {
             from: "sellingdb",
             localField: "account_name",
             foreignField: "account_name",
-            as: "Selling by him/her:"
+            as: "Selling Info:"
            },
+        },{
+            $lookup:{ from: "orderdb",
+                localField: "account_name",
+                foreignField: "seller_account_name",
+                as: "Order Info:"
+            }
         },{
             $project:{
                 "account_id":0,
@@ -73,6 +79,34 @@ router.findSellingInfoByAccount = (req, res) => {
             }
         }
         ],function (err,account) {
+        if(err)
+            res.json({errmsg: err});
+        else
+            res.send(JSON.stringify(account, null, 5));
+    });
+
+}
+router.findBuyingInfoByAccount = (req, res) => {
+
+    res.setHeader('Content-Type', 'application/json');
+    Account.aggregate([
+        {
+            $lookup: {
+                from: "orderdb",
+                localField: "account_name",
+                foreignField: "buyer_account_name",
+                as: "Buying Info:"
+            },
+        },{
+            $project:{
+                "account_id":0,
+                "selling":0,
+                "buying":0,
+                "following_sneakers":0,
+                "registration_date":0
+            }
+        }
+    ],function (err,account) {
         if(err)
             res.json({errmsg: err});
         else
