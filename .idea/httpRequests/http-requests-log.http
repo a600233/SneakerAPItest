@@ -5,6 +5,17 @@ Content-Type: application/json
 
 {  "brand": "Converse",   "series": "One Star Ox",   "name": "Tyler the Creator Gold Le Fleur Mono (Blue)","color":"Limoges/White", "original_price": 100,"article_number":"162131C", "release_date":"2018-04-26"}
 
+<> 2018-10-22T071459.200.json
+
+###
+
+GET http://localhost:3000/selling
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{  "brand": "Converse",   "series": "One Star Ox",   "name": "Tyler the Creator Gold Le Fleur Mono (Blue)","color":"Limoges/White", "original_price": 100,"article_number":"162131C", "release_date":"2018-04-26"}
+
 <> 2018-10-22T060102.200.json
 
 ###
@@ -532,17 +543,6 @@ Content-Type: application/json
 {"account_name": "Yan.Liu","seller_account_name": "JIE_Bao", "brand": "Nike",   "series": "Air Jordan 1 Retro High",   "name": "Game Royal",   "size": 42, "selling_price": 395,"shipping_address":"Ireland, Waterford, Inner Ring Road, Riverwalk 219A", "order_time":"2018-9-21"}
 
 <> 2018-10-21T120329.200.json
-
-###
-
-GET http://localhost:3000/order/o_s_a/show
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"account_name": "Yan.Liu","seller_account_name": "JIE_Bao", "brand": "Nike",   "series": "Air Jordan 1 Retro High",   "name": "Game Royal",   "size": 42, "selling_price": 395,"shipping_address":"Ireland, Waterford, Inner Ring Road, Riverwalk 219A", "order_time":"2018-9-21"}
-
-<> 2018-10-21T120208.200.json
 
 ###
 

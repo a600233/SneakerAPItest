@@ -14,5 +14,10 @@
     "mongodb": "^3.1.6",
     "mongoose": "^5.3.1",
     "morgan": "~1.9.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^4.2.0",
+    "mocha": "^5.2.0"
   }
 }
