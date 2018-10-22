@@ -1,0 +1,24 @@
+[
+  {
+    "_id": "5bbc7e17aae02f1914a8cf20",
+    "brand": "Nike",
+    "series": "React Element 87",
+    "name": "Undercover Light Beige Chalk",
+    "size": 41,
+    "color": "Light Biege Chalk/Signal Blue",
+    "selling_price": 280,
+    "account_name": "JIE_Bao",
+    "__v": 0
+  },
+  {
+    "_id": "5bbc7effaae02f1914a8cf21",
+    "brand": "Nike",
+    "series": "Air Jordan 1 Retro High",
+    "name": "Game Royal",
+    "size": 42,
+    "color": "Game Royal/Black-Summit White",
+    "selling_price": 395,
+    "account_name": "JIE_Bao",
+    "__v": 0
+  }
+]

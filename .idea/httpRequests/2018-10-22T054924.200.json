@@ -1,0 +1,14 @@
+{
+  "message": "Sneaker Info Successfully Added!",
+  "data": {
+    "_id": "5bcdff93e290e408b02d1243",
+    "brand": "Under Armour",
+    "series": "CURRY 4",
+    "name": "White Black",
+    "color": "White/Black",
+    "original_price": 130,
+    "article_number": "1298306-102",
+    "release_date": "2017-10-27T00:00:00.000Z",
+    "__v": 0
+  }
+}
