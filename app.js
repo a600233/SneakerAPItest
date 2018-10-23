@@ -32,7 +32,7 @@ app.get('/selling/info/:keyword', selling.findSellingInfo);
 app.get('/selling/sort/:selling_price', selling.sortAllPrice);
 app.post('/selling',selling.addSelling);
 app.delete('/selling/:_id', selling.deleteSelling);
-app.get('/selling/show/:keyword', selling.findSellingSneakerInfoByPrice);
+app.get('/selling/show/:keyword1/:keyword2', selling.findSellingSneakerInfoByPrice);
 app.put('/donations/:_id/vote', selling.incrementSellingAmount);
 
 app.get('/account',account.findAllAccount);
@@ -53,8 +53,8 @@ app.put('/order/:_id/amount',order.incrementAmounts);
 app.get('/sneaker',sneaker.findAllSneaker);
 app.post('/sneaker',sneaker.addSneaker);
 app.delete('/sneaker/:_id', sneaker.deleteSneaker);
-app.get('/sneaker/s_s/:keyword1', sneaker.findSneakerIsSelling);
 app.get('/sneaker/find/:keyword',sneaker.findSpecificSneakerInfo);
+app.get('/sneaker/s_t/:keyword1/:keyword2',sneaker.findSneakerByTime);
 
 app.use(function(req, res, next) {
   next(createError(404));

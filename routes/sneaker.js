@@ -64,6 +64,17 @@ router.findSneakerIsSelling = (req, res) => {
     });
 
 }
+router.findSneakerByTime = (req, res) => {
+    res.setHeader('Content-Type', 'application/json');
+    var keyword1 = req.params.keyword1;
+    var keyword2 = req.params.keyword2;
+    Sneaker.find({ "release_date" : {"$gte":new Date(keyword2), "$lte" : new Date(keyword1) } },function(err, sneaker) {
+        if (err)
+            res.send({message: 'No Sneaker early that time!',errmsg:err});
+
+        res.send(JSON.stringify(sneaker,null,5));
+    });
+}
 router.addSneaker = (req, res) => {
 
     res.setHeader('Content-Type', 'application/json');
