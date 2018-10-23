@@ -32,7 +32,7 @@ app.get('/selling/info/:keyword', selling.findSellingInfo);
 app.get('/selling/sort/:selling_price', selling.sortAllPrice);
 app.post('/selling',selling.addSelling);
 app.delete('/selling/:_id', selling.deleteSelling);
-app.get('/selling/s_s/show/:keyword1/:keyword2', selling.findSellingSneakerInfoByPrice);
+app.get('/selling/s_s/show', selling.findSellingSneakerInfoByPrice);
 app.put('/donations/:_id/vote', selling.incrementSellingAmount);
 
 app.get('/account',account.findAllAccount);

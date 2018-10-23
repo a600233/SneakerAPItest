@@ -70,8 +70,8 @@ router.sortAllPrice = (req, res) => {
 router.findSellingSneakerInfoByPrice = (req, res) => {
 
     res.setHeader('Content-Type', 'application/json');
-    var keyword1 =req.params.keyword1;
-    var keyword2 =req.params.keyword2;
+   // var keyword1 =req.params.keyword1;
+    var keyword2 =req.query.keyword2;
     Selling.aggregate([{
         $lookup: {
             from: "sneakerdb",
@@ -87,10 +87,8 @@ router.findSellingSneakerInfoByPrice = (req, res) => {
             "article_number":0
         }
     },{
-        $match:{
-            "selling_price":{
-                $gte : keyword1, $lte : keyword2
-            }
+        $sort : {
+            selling_price: 1
         }
     }],function (err,selling) {
         if(err)
