@@ -99,6 +99,22 @@ router.findSellingSneakerInfoByPrice = (req, res) => {
     });
 
 }
+router.incrementSellingAmount = (req, res) => {
+
+    Selling.findById(req.params._id, function(err,selling) {
+        if (err)
+            res.json({ message: 'Selling Info NOT Found!', errmsg : err } );
+        else {
+            selling.upvotes += 1;
+            selling.save(function (err) {
+                if (err)
+                    res.json({ message: 'Selling Amounts are NOT Added!', errmsg : err } );
+                else
+                    res.json({ message: 'Selling Amounts are Successfully Added!', data: selling });
+            });
+        }
+    });
+}
 router.addSelling = (req, res) => {
 
     res.setHeader('Content-Type', 'application/json');

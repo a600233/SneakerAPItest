@@ -7,7 +7,8 @@ let SellingSchema = new mongoose.Schema({
         size: Number,
         article_number: String,
         selling_price: Number,
-        account_name: String
+        account_name: String,
+        selling_amount:{type: Number, default: 1},
     },
     { collection: 'sellingdb' });
 

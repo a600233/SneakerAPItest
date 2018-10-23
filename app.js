@@ -33,7 +33,7 @@ app.get('/selling/sort/:selling_price', selling.sortAllPrice);
 app.post('/selling',selling.addSelling);
 app.delete('/selling/:_id', selling.deleteSelling);
 app.get('/selling/show/:keyword', selling.findSellingSneakerInfoByPrice);
-
+app.put('/donations/:_id/vote', selling.incrementSellingAmount);
 
 app.get('/account',account.findAllAccount);
 app.post('/account',account.addAccount);
