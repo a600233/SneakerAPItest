@@ -88,13 +88,13 @@ router.findSellingSneakerInfoByPrice = (req, res) => {
         }
     },{
         $match:{
-            selling_price:{
-                $gt : keyword1, $lte : keyword2
+            "selling_price":{
+                $gte : keyword1, $lte : keyword2
             }
         }
     }],function (err,selling) {
         if(err)
-            res.json({message: 'Selling Info NOT Found!',errmsg: err});
+            res.json({message: 'Selling Sneakers Info NOT Found!',errmsg: err});
         else
             res.send(JSON.stringify(selling, null, 5));
     });

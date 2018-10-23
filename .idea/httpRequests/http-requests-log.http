@@ -1,3 +1,344 @@
+GET http://localhost:3000/selling/s_s/show/100/200
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{  "brand": "Converse",   "series": "One Star Ox",   "name": "Tyler the Creator Gold Le Fleur Mono (Blue)","color":"Limoges/White", "original_price": 100,"article_number":"162131C", "release_date":"2018-04-26"}
+
+<> 2018-10-23T103609.200.json
+
+###
+
+GET http://localhost:3000/selling/s_s/show/100/200
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{  "brand": "Converse",   "series": "One Star Ox",   "name": "Tyler the Creator Gold Le Fleur Mono (Blue)","color":"Limoges/White", "original_price": 100,"article_number":"162131C", "release_date":"2018-04-26"}
+
+<> 2018-10-23T103552.404.html
+
+###
+
+GET http://localhost:3000/selling/s_s/show
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{  "brand": "Converse",   "series": "One Star Ox",   "name": "Tyler the Creator Gold Le Fleur Mono (Blue)","color":"Limoges/White", "original_price": 100,"article_number":"162131C", "release_date":"2018-04-26"}
+
+<> 2018-10-23T103321.200.json
+
+###
+
+GET http://localhost:3000/selling/s_s/show
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{  "brand": "Converse",   "series": "One Star Ox",   "name": "Tyler the Creator Gold Le Fleur Mono (Blue)","color":"Limoges/White", "original_price": 100,"article_number":"162131C", "release_date":"2018-04-26"}
+
+<> 2018-10-23T103240.200.json
+
+###
+
+GET http://localhost:3000/selling/show/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{  "brand": "Converse",   "series": "One Star Ox",   "name": "Tyler the Creator Gold Le Fleur Mono (Blue)","color":"Limoges/White", "original_price": 100,"article_number":"162131C", "release_date":"2018-04-26"}
+
+<> 2018-10-23T103147.200.json
+
+###
+
+GET http://localhost:3000/selling/show
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{  "brand": "Converse",   "series": "One Star Ox",   "name": "Tyler the Creator Gold Le Fleur Mono (Blue)","color":"Limoges/White", "original_price": 100,"article_number":"162131C", "release_date":"2018-04-26"}
+
+<> 2018-10-23T103130-3.200.json
+
+###
+
+GET http://localhost:3000/selling/show
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{  "brand": "Converse",   "series": "One Star Ox",   "name": "Tyler the Creator Gold Le Fleur Mono (Blue)","color":"Limoges/White", "original_price": 100,"article_number":"162131C", "release_date":"2018-04-26"}
+
+<> 2018-10-23T103130-2.200.json
+
+###
+
+GET http://localhost:3000/selling/show
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{  "brand": "Converse",   "series": "One Star Ox",   "name": "Tyler the Creator Gold Le Fleur Mono (Blue)","color":"Limoges/White", "original_price": 100,"article_number":"162131C", "release_date":"2018-04-26"}
+
+<> 2018-10-23T103130-1.200.json
+
+###
+
+GET http://localhost:3000/selling/show
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{  "brand": "Converse",   "series": "One Star Ox",   "name": "Tyler the Creator Gold Le Fleur Mono (Blue)","color":"Limoges/White", "original_price": 100,"article_number":"162131C", "release_date":"2018-04-26"}
+
+<> 2018-10-23T103130.200.json
+
+###
+
+GET http://localhost:3000/selling/show
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{  "brand": "Converse",   "series": "One Star Ox",   "name": "Tyler the Creator Gold Le Fleur Mono (Blue)","color":"Limoges/White", "original_price": 100,"article_number":"162131C", "release_date":"2018-04-26"}
+
+<> 2018-10-23T103129-1.200.json
+
+###
+
+GET http://localhost:3000/selling/show
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{  "brand": "Converse",   "series": "One Star Ox",   "name": "Tyler the Creator Gold Le Fleur Mono (Blue)","color":"Limoges/White", "original_price": 100,"article_number":"162131C", "release_date":"2018-04-26"}
+
+<> 2018-10-23T103129.200.json
+
+###
+
+GET http://localhost:3000/selling/show
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{  "brand": "Converse",   "series": "One Star Ox",   "name": "Tyler the Creator Gold Le Fleur Mono (Blue)","color":"Limoges/White", "original_price": 100,"article_number":"162131C", "release_date":"2018-04-26"}
+
+<> 2018-10-23T103128.200.json
+
+###
+
+GET http://localhost:3000/selling/show/
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{  "brand": "Converse",   "series": "One Star Ox",   "name": "Tyler the Creator Gold Le Fleur Mono (Blue)","color":"Limoges/White", "original_price": 100,"article_number":"162131C", "release_date":"2018-04-26"}
+
+<> 2018-10-23T102807.200.json
+
+###
+
+GET http://localhost:3000/selling/show/100/300
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{  "brand": "Converse",   "series": "One Star Ox",   "name": "Tyler the Creator Gold Le Fleur Mono (Blue)","color":"Limoges/White", "original_price": 100,"article_number":"162131C", "release_date":"2018-04-26"}
+
+<> 2018-10-23T102720-3.200.json
+
+###
+
+GET http://localhost:3000/selling/show/100/300
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{  "brand": "Converse",   "series": "One Star Ox",   "name": "Tyler the Creator Gold Le Fleur Mono (Blue)","color":"Limoges/White", "original_price": 100,"article_number":"162131C", "release_date":"2018-04-26"}
+
+<> 2018-10-23T102720-2.200.json
+
+###
+
+GET http://localhost:3000/selling/show/100/300
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{  "brand": "Converse",   "series": "One Star Ox",   "name": "Tyler the Creator Gold Le Fleur Mono (Blue)","color":"Limoges/White", "original_price": 100,"article_number":"162131C", "release_date":"2018-04-26"}
+
+<> 2018-10-23T102720-1.200.json
+
+###
+
+GET http://localhost:3000/selling/show/100/300
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{  "brand": "Converse",   "series": "One Star Ox",   "name": "Tyler the Creator Gold Le Fleur Mono (Blue)","color":"Limoges/White", "original_price": 100,"article_number":"162131C", "release_date":"2018-04-26"}
+
+<> 2018-10-23T102720.200.json
+
+###
+
+GET http://localhost:3000/selling/show/100/300
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{  "brand": "Converse",   "series": "One Star Ox",   "name": "Tyler the Creator Gold Le Fleur Mono (Blue)","color":"Limoges/White", "original_price": 100,"article_number":"162131C", "release_date":"2018-04-26"}
+
+<> 2018-10-23T102719.200.json
+
+###
+
+GET http://localhost:3000/selling/show/100/300
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{  "brand": "Converse",   "series": "One Star Ox",   "name": "Tyler the Creator Gold Le Fleur Mono (Blue)","color":"Limoges/White", "original_price": 100,"article_number":"162131C", "release_date":"2018-04-26"}
+
+<> 2018-10-23T102423.200.json
+
+###
+
+GET http://localhost:3000/selling/show/100/300
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{  "brand": "Converse",   "series": "One Star Ox",   "name": "Tyler the Creator Gold Le Fleur Mono (Blue)","color":"Limoges/White", "original_price": 100,"article_number":"162131C", "release_date":"2018-04-26"}
+
+<> 2018-10-23T102032.200.json
+
+###
+
+GET http://localhost:3000/sneaker/s_t/2018-1-1/2017-1-1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{  "brand": "Converse",   "series": "One Star Ox",   "name": "Tyler the Creator Gold Le Fleur Mono (Blue)","color":"Limoges/White", "original_price": 100,"article_number":"162131C", "release_date":"2018-04-26"}
+
+<> 2018-10-23T101839.200.json
+
+###
+
+GET http://localhost:3000/sneaker/s_t/2017-1-1/2018-1-1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{  "brand": "Converse",   "series": "One Star Ox",   "name": "Tyler the Creator Gold Le Fleur Mono (Blue)","color":"Limoges/White", "original_price": 100,"article_number":"162131C", "release_date":"2018-04-26"}
+
+<> 2018-10-23T101816.200.json
+
+###
+
+GET http://localhost:3000/sneaker/s_t/2018-10-1/2018-1-1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{  "brand": "Converse",   "series": "One Star Ox",   "name": "Tyler the Creator Gold Le Fleur Mono (Blue)","color":"Limoges/White", "original_price": 100,"article_number":"162131C", "release_date":"2018-04-26"}
+
+<> 2018-10-23T101752.200.json
+
+###
+
+GET http://localhost:3000/sneaker/s_t/2018-10-1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{  "brand": "Converse",   "series": "One Star Ox",   "name": "Tyler the Creator Gold Le Fleur Mono (Blue)","color":"Limoges/White", "original_price": 100,"article_number":"162131C", "release_date":"2018-04-26"}
+
+<> 2018-10-23T101304-1.200.json
+
+###
+
+GET http://localhost:3000/sneaker/s_t/2018-10-1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{  "brand": "Converse",   "series": "One Star Ox",   "name": "Tyler the Creator Gold Le Fleur Mono (Blue)","color":"Limoges/White", "original_price": 100,"article_number":"162131C", "release_date":"2018-04-26"}
+
+<> 2018-10-23T101304.200.json
+
+###
+
+GET http://localhost:3000/sneaker/s_t/2018-10-1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{  "brand": "Converse",   "series": "One Star Ox",   "name": "Tyler the Creator Gold Le Fleur Mono (Blue)","color":"Limoges/White", "original_price": 100,"article_number":"162131C", "release_date":"2018-04-26"}
+
+<> 2018-10-23T101252-2.500.json
+
+###
+
+GET http://localhost:3000/sneaker/s_t/2018-10-1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{  "brand": "Converse",   "series": "One Star Ox",   "name": "Tyler the Creator Gold Le Fleur Mono (Blue)","color":"Limoges/White", "original_price": 100,"article_number":"162131C", "release_date":"2018-04-26"}
+
+<> 2018-10-23T101252-1.500.json
+
+###
+
+GET http://localhost:3000/sneaker/s_t/2018-10-1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{  "brand": "Converse",   "series": "One Star Ox",   "name": "Tyler the Creator Gold Le Fleur Mono (Blue)","color":"Limoges/White", "original_price": 100,"article_number":"162131C", "release_date":"2018-04-26"}
+
+<> 2018-10-23T101252.500.json
+
+###
+
+GET http://localhost:3000/sneaker/s_t/2018-10-1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{  "brand": "Converse",   "series": "One Star Ox",   "name": "Tyler the Creator Gold Le Fleur Mono (Blue)","color":"Limoges/White", "original_price": 100,"article_number":"162131C", "release_date":"2018-04-26"}
+
+<> 2018-10-23T101251.500.json
+
+###
+
+GET http://localhost:3000/sneaker/s_t/2018-10-1
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{  "brand": "Converse",   "series": "One Star Ox",   "name": "Tyler the Creator Gold Le Fleur Mono (Blue)","color":"Limoges/White", "original_price": 100,"article_number":"162131C", "release_date":"2018-04-26"}
+
+<> 2018-10-23T100305.500.json
+
+###
+
+GET http://localhost:3000/selling/show/200
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{  "brand": "Converse",   "series": "One Star Ox",   "name": "Tyler the Creator Gold Le Fleur Mono (Blue)","color":"Limoges/White", "original_price": 100,"article_number":"162131C", "release_date":"2018-04-26"}
+
+<> 2018-10-23T100159.200.json
+
+###
+
 GET http://localhost:3000/selling
 Accept: */*
 Cache-Control: no-cache
@@ -202,347 +543,6 @@ Content-Type: application/json
 { "brand": "Nike",   "series": "Air Jordan 1 Retro High",   "name": "Game Royal", "color":"Game Royal/Black-Summit White", "original_price": 160,"article_number":"555088-403", "release_date":"2018-03-24"}
 
 <> 2018-10-22T110918.200.json
-
-###
-
-GET http://localhost:3000/sneaker
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "brand": "Nike",   "series": "Air Jordan 1 Retro High",   "name": "Game Royal", "color":"Game Royal/Black-Summit White", "original_price": 160,"article_number":"555088-403", "release_date":"2018-03-24"}
-
-<> 2018-10-22T110502.200.json
-
-###
-
-POST http://localhost:3000/sneaker
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "brand": "Nike",   "series": "Air Jordan 1 Retro High",   "name": "Game Royal", "color":"Game Royal/Black-Summit White", "original_price": 160,"article_number":"555088-403", "release_date":"2018-03-24"}
-
-<> 2018-10-22T110458.200.json
-
-###
-
-POST http://localhost:3000/sneaker/s_s/200
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "brand": "Nike",   "series": "Air Jordan 1 Retro High",   "name": "Game Royal", "color":"Game Royal/Black-Summit White", "original_price": 160,"article_number":"555088-403", "release_date":"2018-03-24"}
-
-<> 2018-10-22T110455.404.html
-
-###
-
-GET http://localhost:3000/sneaker/s_s/200
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "brand": "Nike",   "series": "Air Jordan 1 Retro High",   "name": "Game Royal", "color":"Game Royal/Black-Summit White", "original_price": 160,"article_number":"555088-403", "release_date":"2018-03-24"}
-
-<> 2018-10-22T123132-1.200.json
-
-###
-
-GET http://localhost:3000/sneaker/s_s/200
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "brand": "Nike",   "series": "Air Jordan 1 Retro High",   "name": "Game Royal", "color":"Game Royal/Black-Summit White", "original_price": 160,"article_number":"555088-403", "release_date":"2018-03-24"}
-
-<> 2018-10-22T123132.200.json
-
-###
-
-GET http://localhost:3000/sneaker/s_s/200
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "brand": "Nike",   "series": "Air Jordan 1 Retro High",   "name": "Game Royal", "color":"Game Royal/Black-Summit White", "original_price": 160,"article_number":"555088-403", "release_date":"2018-03-24"}
-
-<> 2018-10-22T123131.200.json
-
-###
-
-GET http://localhost:3000/sneaker/s_s/200
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "brand": "Nike",   "series": "Air Jordan 1 Retro High",   "name": "Game Royal", "color":"Game Royal/Black-Summit White", "original_price": 160,"article_number":"555088-403", "release_date":"2018-03-24"}
-
-<> 2018-10-22T123130.200.json
-
-###
-
-GET http://localhost:3000/sneaker/s_s/200
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "brand": "Nike",   "series": "Air Jordan 1 Retro High",   "name": "Game Royal", "color":"Game Royal/Black-Summit White", "original_price": 160,"article_number":"555088-403", "release_date":"2018-03-24"}
-
-<> 2018-10-22T122934.200.json
-
-###
-
-GET http://localhost:3000/sneaker
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "brand": "Nike",   "series": "Air Jordan 1 Retro High",   "name": "Game Royal", "color":"Game Royal/Black-Summit White", "original_price": 160,"article_number":"555088-403", "release_date":"2018-03-24"}
-
-<> 2018-10-22T122925.200.json
-
-###
-
-GET http://localhost:3000/sneaker/s_s/200
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "brand": "Nike",   "series": "Air Jordan 1 Retro High",   "name": "Game Royal", "color":"Game Royal/Black-Summit White", "original_price": 160,"article_number":"555088-403", "release_date":"2018-03-24"}
-
-<> 2018-10-22T122812.200.json
-
-###
-
-GET http://localhost:3000/sneaker/s_s/200
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "brand": "Nike",   "series": "Air Jordan 1 Retro High",   "name": "Game Royal", "color":"Game Royal/Black-Summit White", "original_price": 160,"article_number":"555088-403", "release_date":"2018-03-24"}
-
-<> 2018-10-22T122743.200.json
-
-###
-
-GET http://localhost:3000/sneaker
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "brand": "Nike",   "series": "Air Jordan 1 Retro High",   "name": "Game Royal", "color":"Game Royal/Black-Summit White", "original_price": 160,"article_number":"555088-403", "release_date":"2018-03-24"}
-
-<> 2018-10-22T122537.200.json
-
-###
-
-POST http://localhost:3000/sneaker
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{ "brand": "Nike",   "series": "Air Jordan 1 Retro High",   "name": "Game Royal", "color":"Game Royal/Black-Summit White", "original_price": 160,"article_number":"555088-403", "release_date":"2018-03-24"}
-
-<> 2018-10-22T122533.200.json
-
-###
-
-GET http://localhost:3000/sneaker/s_s/1000
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"account_name": "Yan.Liu","seller_account_name": "JIE_Bao", "brand": "Nike",   "series": "Air Jordan 1 Retro High",   "name": "Game Royal",   "size": 42, "selling_price": 395,"shipping_address":"Ireland, Waterford, Inner Ring Road, Riverwalk 219A", "order_time":"2018-9-21"}
-
-<> 2018-10-22T121611.404.html
-
-###
-
-GET http://localhost:3000/sneaker/s_s/200
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"account_name": "Yan.Liu","seller_account_name": "JIE_Bao", "brand": "Nike",   "series": "Air Jordan 1 Retro High",   "name": "Game Royal",   "size": 42, "selling_price": 395,"shipping_address":"Ireland, Waterford, Inner Ring Road, Riverwalk 219A", "order_time":"2018-9-21"}
-
-<> 2018-10-22T121603.404.html
-
-###
-
-GET http://localhost:3000/account/b_a/show
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"account_name": "Yan.Liu","seller_account_name": "JIE_Bao", "brand": "Nike",   "series": "Air Jordan 1 Retro High",   "name": "Game Royal",   "size": 42, "selling_price": 395,"shipping_address":"Ireland, Waterford, Inner Ring Road, Riverwalk 219A", "order_time":"2018-9-21"}
-
-<> 2018-10-21T115929.200.json
-
-###
-
-GET http://localhost:3000/account/b_a/show
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"account_name": "Yan.Liu","seller_account_name": "JIE_Bao", "brand": "Nike",   "series": "Air Jordan 1 Retro High",   "name": "Game Royal",   "size": 42, "selling_price": 395,"shipping_address":"Ireland, Waterford, Inner Ring Road, Riverwalk 219A", "order_time":"2018-9-21"}
-
-<> 2018-10-21T115426.200.json
-
-###
-
-GET http://localhost:3000/account/b_a/show
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"account_name": "Yan.Liu","seller_account_name": "JIE_Bao", "brand": "Nike",   "series": "Air Jordan 1 Retro High",   "name": "Game Royal",   "size": 42, "selling_price": 395,"shipping_address":"Ireland, Waterford, Inner Ring Road, Riverwalk 219A", "order_time":"2018-9-21"}
-
-<> 2018-10-21T115150.200.json
-
-###
-
-GET http://localhost:3000/account/s_a/show
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"account_name": "Yan.Liu","seller_account_name": "JIE_Bao", "brand": "Nike",   "series": "Air Jordan 1 Retro High",   "name": "Game Royal",   "size": 42, "selling_price": 395,"shipping_address":"Ireland, Waterford, Inner Ring Road, Riverwalk 219A", "order_time":"2018-9-21"}
-
-<> 2018-10-21T114110.200.json
-
-###
-
-GET http://localhost:3000/account/s_a/show
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"account_name": "Yan.Liu","seller_account_name": "JIE_Bao", "brand": "Nike",   "series": "Air Jordan 1 Retro High",   "name": "Game Royal",   "size": 42, "selling_price": 395,"shipping_address":"Ireland, Waterford, Inner Ring Road, Riverwalk 219A", "order_time":"2018-9-21"}
-
-<> 2018-10-21T113234.500.json
-
-###
-
-GET http://localhost:3000/account/s_a/show
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"account_name": "Yan.Liu","seller_account_name": "JIE_Bao", "brand": "Nike",   "series": "Air Jordan 1 Retro High",   "name": "Game Royal",   "size": 42, "selling_price": 395,"shipping_address":"Ireland, Waterford, Inner Ring Road, Riverwalk 219A", "order_time":"2018-9-21"}
-
-<> 2018-10-21T113233-2.500.json
-
-###
-
-GET http://localhost:3000/account/s_a/show
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"account_name": "Yan.Liu","seller_account_name": "JIE_Bao", "brand": "Nike",   "series": "Air Jordan 1 Retro High",   "name": "Game Royal",   "size": 42, "selling_price": 395,"shipping_address":"Ireland, Waterford, Inner Ring Road, Riverwalk 219A", "order_time":"2018-9-21"}
-
-<> 2018-10-21T113233-1.500.json
-
-###
-
-GET http://localhost:3000/account/s_a/show
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"account_name": "Yan.Liu","seller_account_name": "JIE_Bao", "brand": "Nike",   "series": "Air Jordan 1 Retro High",   "name": "Game Royal",   "size": 42, "selling_price": 395,"shipping_address":"Ireland, Waterford, Inner Ring Road, Riverwalk 219A", "order_time":"2018-9-21"}
-
-<> 2018-10-21T113233.500.json
-
-###
-
-GET http://localhost:3000/account/s_a/show
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"account_name": "Yan.Liu","seller_account_name": "JIE_Bao", "brand": "Nike",   "series": "Air Jordan 1 Retro High",   "name": "Game Royal",   "size": 42, "selling_price": 395,"shipping_address":"Ireland, Waterford, Inner Ring Road, Riverwalk 219A", "order_time":"2018-9-21"}
-
-<> 2018-10-21T113232.500.json
-
-###
-
-GET http://localhost:3000/account/s_a/show
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"account_name": "Yan.Liu","seller_account_name": "JIE_Bao", "brand": "Nike",   "series": "Air Jordan 1 Retro High",   "name": "Game Royal",   "size": 42, "selling_price": 395,"shipping_address":"Ireland, Waterford, Inner Ring Road, Riverwalk 219A", "order_time":"2018-9-21"}
-
-<> 2018-10-21T113114.500.json
-
-###
-
-GET http://localhost:3000/selling/b/royal
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"account_name": "Yan.Liu","seller_account_name": "JIE_Bao", "brand": "Nike",   "series": "Air Jordan 1 Retro High",   "name": "Game Royal",   "size": 42, "selling_price": 395,"shipping_address":"Ireland, Waterford, Inner Ring Road, Riverwalk 219A", "order_time":"2018-9-21"}
-
-<> 2018-10-21T101404.200.json
-
-###
-
-GET http://localhost:3000/selling/b/nik
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"account_name": "Yan.Liu","seller_account_name": "JIE_Bao", "brand": "Nike",   "series": "Air Jordan 1 Retro High",   "name": "Game Royal",   "size": 42, "selling_price": 395,"shipping_address":"Ireland, Waterford, Inner Ring Road, Riverwalk 219A", "order_time":"2018-9-21"}
-
-<> 2018-10-21T101355.200.json
-
-###
-
-GET http://localhost:3000/selling/b/air
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"account_name": "Yan.Liu","seller_account_name": "JIE_Bao", "brand": "Nike",   "series": "Air Jordan 1 Retro High",   "name": "Game Royal",   "size": 42, "selling_price": 395,"shipping_address":"Ireland, Waterford, Inner Ring Road, Riverwalk 219A", "order_time":"2018-9-21"}
-
-<> 2018-10-21T101349.200.json
-
-###
-
-GET http://localhost:3000/order/o_s_a/show
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"account_name": "Yan.Liu","seller_account_name": "JIE_Bao", "brand": "Nike",   "series": "Air Jordan 1 Retro High",   "name": "Game Royal",   "size": 42, "selling_price": 395,"shipping_address":"Ireland, Waterford, Inner Ring Road, Riverwalk 219A", "order_time":"2018-9-21"}
-
-<> 2018-10-21T120455.200.json
-
-###
-
-GET http://localhost:3000/account/s_a/show
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"account_name": "Yan.Liu","seller_account_name": "JIE_Bao", "brand": "Nike",   "series": "Air Jordan 1 Retro High",   "name": "Game Royal",   "size": 42, "selling_price": 395,"shipping_address":"Ireland, Waterford, Inner Ring Road, Riverwalk 219A", "order_time":"2018-9-21"}
-
-<> 2018-10-21T120349.200.json
-
-###
-
-GET http://localhost:3000/order/o_s_a/show
-Accept: */*
-Cache-Control: no-cache
-Content-Type: application/json
-
-{"account_name": "Yan.Liu","seller_account_name": "JIE_Bao", "brand": "Nike",   "series": "Air Jordan 1 Retro High",   "name": "Game Royal",   "size": 42, "selling_price": 395,"shipping_address":"Ireland, Waterford, Inner Ring Road, Riverwalk 219A", "order_time":"2018-9-21"}
-
-<> 2018-10-21T120329.200.json
 
 ###
 
