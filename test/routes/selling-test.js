@@ -27,15 +27,16 @@ describe('Donations', function (){
              .end(function(err, res) {
     expect(res).to.have.status(200);
     expect(res.body).to.be.a('array');
-    expect(res.body.length).to.equal(8);
-    /*let result = _.map(res.body, (selling) => {
+    expect(res.body.length).to.equal(8);	
+    let result = _.map(res.body, (selling) => {
         return { size: selling.size,
-            selling_price: donation.selling_price } 
-        });*/
+            selling_price: selling.selling_price } 
+        });
     expect(result).to.include( { size: 41, selling_price: 280  } );
     expect(result).to.include( { size: 42, selling_price: 395  } );
     done();
 });
         });
     });
+	
 });

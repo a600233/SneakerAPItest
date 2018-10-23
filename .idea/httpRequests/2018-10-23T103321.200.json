@@ -1,0 +1,62 @@
+[
+  {
+    "_id": "5bbc97c0e89a713838d0a593",
+    "size": 38,
+    "selling_price": 140,
+    "account_name": "Yan.Liu",
+    "__v": 0,
+    "Sneakers Info:": [
+      {
+        "_id": "5bcdff93e290e408b02d1243",
+        "brand": "Under Armour",
+        "series": "CURRY 4",
+        "name": "White Black",
+        "color": "White/Black",
+        "original_price": 130,
+        "article_number": "1298306-102",
+        "release_date": "2017-10-27T00:00:00.000Z",
+        "__v": 0
+      }
+    ]
+  },
+  {
+    "_id": "5bc795b849563d0fc0d7f4b2",
+    "size": 43.5,
+    "selling_price": 120,
+    "account_name": "Marshall.Yin",
+    "__v": 0,
+    "Sneakers Info:": [
+      {
+        "_id": "5bce006ae290e408b02d1245",
+        "brand": "New Balance",
+        "series": "990v4",
+        "name": "Kith Grey",
+        "color": "Grey/White",
+        "original_price": 175,
+        "article_number": "M990GL4",
+        "release_date": "2018-08-21T00:00:00.000Z",
+        "__v": 0
+      }
+    ]
+  },
+  {
+    "_id": "5bc79bb52133ee2e847ab4d6",
+    "size": 43,
+    "selling_price": 180,
+    "account_name": "James.Jebbia",
+    "__v": 0,
+    "Sneakers Info:": [
+      {
+        "_id": "5bce00c0e290e408b02d1246",
+        "brand": "Converse",
+        "series": "One Star Ox",
+        "name": "Tyler the Creator Gold Le Fleur Mono (Blue)",
+        "color": "Limoges/White",
+        "original_price": 100,
+        "article_number": "162131C",
+        "release_date": "2018-04-26T00:00:00.000Z",
+        "__v": 0
+      }
+    ]
+  }
+]
